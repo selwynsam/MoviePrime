@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MoviePrime/static/css/main.aa59f625.chunk.css",
+    "main.js": "/MoviePrime/static/js/main.efcec39e.chunk.js",
+    "main.js.map": "/MoviePrime/static/js/main.efcec39e.chunk.js.map",
+    "runtime-main.js": "/MoviePrime/static/js/runtime-main.b880a1a4.js",
+    "runtime-main.js.map": "/MoviePrime/static/js/runtime-main.b880a1a4.js.map",
+    "static/js/2.4ac6ea2a.chunk.js": "/MoviePrime/static/js/2.4ac6ea2a.chunk.js",
+    "static/js/2.4ac6ea2a.chunk.js.map": "/MoviePrime/static/js/2.4ac6ea2a.chunk.js.map",
+    "static/js/3.65da482b.chunk.js": "/MoviePrime/static/js/3.65da482b.chunk.js",
+    "static/js/3.65da482b.chunk.js.map": "/MoviePrime/static/js/3.65da482b.chunk.js.map",
+    "index.html": "/MoviePrime/index.html",
+    "static/css/main.aa59f625.chunk.css.map": "/MoviePrime/static/css/main.aa59f625.chunk.css.map",
+    "static/js/2.4ac6ea2a.chunk.js.LICENSE.txt": "/MoviePrime/static/js/2.4ac6ea2a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b880a1a4.js",
+    "static/js/2.4ac6ea2a.chunk.js",
+    "static/css/main.aa59f625.chunk.css",
+    "static/js/main.efcec39e.chunk.js"
+  ]
+}

@@ -9,7 +9,7 @@ import './styles/style.scss';
 function App() {
   return (
     <AppProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.REACT_APP_BASE_URL}>
 
         <Header/>
 

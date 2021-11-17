@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MoviePrime/static/css/main.aa59f625.chunk.css",
-    "main.js": "/MoviePrime/static/js/main.af9f12e1.chunk.js",
-    "main.js.map": "/MoviePrime/static/js/main.af9f12e1.chunk.js.map",
+    "main.js": "/MoviePrime/static/js/main.7deeedd6.chunk.js",
+    "main.js.map": "/MoviePrime/static/js/main.7deeedd6.chunk.js.map",
     "runtime-main.js": "/MoviePrime/static/js/runtime-main.b880a1a4.js",
     "runtime-main.js.map": "/MoviePrime/static/js/runtime-main.b880a1a4.js.map",
     "static/js/2.4ac6ea2a.chunk.js": "/MoviePrime/static/js/2.4ac6ea2a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b880a1a4.js",
     "static/js/2.4ac6ea2a.chunk.js",
     "static/css/main.aa59f625.chunk.css",
-    "static/js/main.af9f12e1.chunk.js"
+    "static/js/main.7deeedd6.chunk.js"
   ]
 }

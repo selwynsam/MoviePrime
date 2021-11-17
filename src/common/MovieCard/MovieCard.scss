@@ -1,0 +1,81 @@
+.movie-card {
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+
+    @include for-desktop-up {
+        min-height: 400px;
+    }
+    
+    .link {
+        color: #fff;
+    }
+
+    img {
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .info {
+        opacity: 0;
+        position: absolute;
+        bottom: 30px;
+        padding: 30px;
+        transition: all 0.3s ease-in-out;
+        z-index: 1;
+    }
+
+    a:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        box-shadow: 1px 0px 20px 20px #020d18;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: all 0.3s ease-in-out;
+        z-index: 0;
+        opacity: 0;
+    }
+
+    .rating {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        padding: 10px 30px;
+        z-index: 1;
+        opacity: 0;
+
+        .icon {
+            color: #f5c518;
+            font-size: 16px;
+            margin-right: 3px;
+        }
+    }
+
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+}
+
+.movie-card:hover {
+    
+    img {
+        transform: scale(1.2) rotate(0.01deg);
+    }
+
+    .info, .rating, a:after {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

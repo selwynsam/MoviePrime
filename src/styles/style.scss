@@ -1,0 +1,93 @@
+@mixin for-phone-down {
+  @media (max-width: 320px) {
+      @content;
+  }
+}
+
+// Small devices (landscape phones, 340px and below)
+@mixin for-phone-only {
+  @media (min-width: 340px) {
+      @content;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin for-tablet-portrait-up {
+  @media (min-width: 768px) {
+      @content;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@mixin for-tablet-landscape-up {
+  @media (min-width: 992px) {
+      @content;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+      @content;
+  }
+}
+
+@import '../common/Header/Header.scss';
+@import '../common/MovieCard/MovieCard.scss';
+@import '../home/Home.scss';
+@import '../common//SearchBar/SearchBar.scss';
+@import '../movieInfo/MovieInfo.scss';
+
+html {
+  box-sizing: border-box;
+  font-size: 13px;
+  @include for-desktop-up {
+    font-size: 16px;
+  }
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #020d18;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px 0px;
+}
+
+a {
+  color: #000;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.movie-list {
+  -webkit-animation: slideTopAnimation 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: slideTopAnimation 3s; /* Firefox < 16 */
+   -ms-animation: slideTopAnimation 3s; /* Internet Explorer */
+    -o-animation: slideTopAnimation 3s; /* Opera < 12.1 */
+       animation: slideTopAnimation 3s;
+}
+
+@keyframes slideTopAnimation {
+  0% {
+      top: 300px;
+  }
+
+  100% {
+      top: 0;
+  }
+}

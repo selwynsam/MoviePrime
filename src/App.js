@@ -6,10 +6,12 @@ import MovieInfo from './movieInfo';
 import { AppProvider } from './AppProvider';
 import './styles/style.scss';
 
+const APP_BASE_URL = '/';
+
 function App() {
   return (
     <AppProvider>
-      <BrowserRouter basename={process.env.REACT_APP_BASE_URL}>
+      <BrowserRouter basename={APP_BASE_URL}>
 
         <Header/>
 
